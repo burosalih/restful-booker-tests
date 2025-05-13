@@ -116,7 +116,3 @@ python -m pytest -v -rA
 ```
 
 ---
-
-## 🧑‍💻 Notes
-
-This test suite is designed for educational purposes to demonstrate skills in API testing, exploratory testing, and reporting. Improvements welcome!
