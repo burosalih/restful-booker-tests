@@ -8,6 +8,8 @@
 
 ---
 
+# Test Case Overview
+
 ## Full Test Case List
 
 | **Test Case ID**                       | **Description**                                                | **Test Type**    |
@@ -23,6 +25,8 @@
 | **TC-06**                              | Retrieve a nonexistent booking                                | Negative         |
 | **TC-07**                              | Delete an existing booking                                    | Positive         |
 | **TC-08**                              | Delete a nonexistent booking                                  | Negative         |
+| **TC-09**                              | Update an existing booking with valid data                    | Positive         |
+| **TC-10**                              | Update an existing booking with invalid data                  | Negative         |
 
 ## Positive Test Cases
 
@@ -34,6 +38,7 @@
 | **TC-03**                              | Create Booking with valid data and valid token                 | Positive         |
 | **TC-05**                              | Retrieve an existing booking                                  | Positive         |
 | **TC-07**                              | Delete an existing booking                                    | Positive         |
+| **TC-09**                              | Update an existing booking with valid data                    | Positive         |
 
 ## Negative Test Cases
 
@@ -43,6 +48,7 @@
 | **TC-04**                              | Create Booking with missing required fields                    | Negative         |
 | **TC-06**                              | Retrieve a nonexistent booking                                | Negative         |
 | **TC-08**                              | Delete a nonexistent booking                                  | Negative         |
+| **TC-10**                              | Update an existing booking with invalid data                  | Negative         |
 
 ## Smoke Test
 
