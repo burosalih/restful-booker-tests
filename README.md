@@ -53,6 +53,16 @@
 
 ---
 
+## 📦 Requirements
+
+Install dependencies with:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
 ## ▶️ Running Tests
 
 To run the test suite, navigate to the project root and run:
@@ -65,16 +75,6 @@ To include extra logging or debugging:
 
 ```bash
 python -m pytest -v -rA
-```
-
----
-
-## 📦 Requirements
-
-Install dependencies with:
-
-```bash
-pip install -r requirements.txt
 ```
 
 ---
