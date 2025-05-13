@@ -93,6 +93,12 @@
 
 ## 📦 Requirements
 
+**Python 3.10 or higher** must be installed. You can verify your version with:
+
+```bash
+python --version
+```
+
 Install dependencies with:
 
 ```bash
