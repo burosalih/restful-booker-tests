@@ -8,17 +8,49 @@
 
 ---
 
-## ✅ Test Summary
+## Full Test Case List
 
-| Test Case ID     | Test Description                                | Status  |
-|------------------|--------------------------------------------------|---------|
-| TC-SM-01         | Health check and auth                            | ✅ Pass |
-| TC-SM-02         | Create → Get → Delete booking                    | ✅ Pass (with bugs noted) |
-| TC-SM-03         | Get all bookings                                 | ✅ Pass |
-| TC-CR-01         | Create booking with valid data                   | ✅ Pass (with bugs noted) |
-| TC-CR-02         | Create booking with missing required fields      | ✅ Pass |
-| TC-DL-01         | Delete existing booking                          | ✅ Pass (with bugs noted) |
-| TC-DL-02         | Delete booking with invalid ID                   | ✅ Pass (with bugs noted) |
+| **Test Case ID**                       | **Description**                                                | **Test Type**    |
+|----------------------------------------|----------------------------------------------------------------|------------------|
+| **TC-SM-01**                           | Check /ping health and /auth login endpoint                    | Smoke Test       |
+| **TC-SM-02**                           | Create, Retrieve, Delete a Booking, and Verify Deletion        | Smoke Test       |
+| **TC-SM-03**                           | Get All Booking IDs                                            | Smoke Test       |
+| **TC-01**                              | Authenticate with valid credentials                            | Positive         |
+| **TC-02**                              | Authenticate with invalid credentials                          | Negative         |
+| **TC-03**                              | Create Booking with valid data and valid token                 | Positive         |
+| **TC-04**                              | Create Booking with missing required fields                    | Negative         |
+| **TC-05**                              | Retrieve an existing booking                                  | Positive         |
+| **TC-06**                              | Retrieve a nonexistent booking                                | Negative         |
+| **TC-07**                              | Delete an existing booking                                    | Positive         |
+| **TC-08**                              | Delete a nonexistent booking                                  | Negative         |
+
+## Positive Test Cases
+
+| **Test Case ID**                       | **Description**                                                | **Test Type**    |
+|----------------------------------------|----------------------------------------------------------------|------------------|
+| **TC-SM-02**                           | Create, Retrieve, Delete a Booking, and Verify Deletion        | Smoke Test       |
+| **TC-SM-03**                           | Get All Booking IDs                                            | Smoke Test       |
+| **TC-01**                              | Authenticate with valid credentials                            | Positive         |
+| **TC-03**                              | Create Booking with valid data and valid token                 | Positive         |
+| **TC-05**                              | Retrieve an existing booking                                  | Positive         |
+| **TC-07**                              | Delete an existing booking                                    | Positive         |
+
+## Negative Test Cases
+
+| **Test Case ID**                       | **Description**                                                | **Test Type**    |
+|----------------------------------------|----------------------------------------------------------------|------------------|
+| **TC-02**                              | Authenticate with invalid credentials                          | Negative         |
+| **TC-04**                              | Create Booking with missing required fields                    | Negative         |
+| **TC-06**                              | Retrieve a nonexistent booking                                | Negative         |
+| **TC-08**                              | Delete a nonexistent booking                                  | Negative         |
+
+## Smoke Test
+
+| **Test Case ID**                       | **Description**                                                | **Test Type**    |
+|----------------------------------------|----------------------------------------------------------------|------------------|
+| **TC-SM-01**                           | Check /ping health and /auth login endpoint                    | Smoke Test       |
+| **TC-SM-02**                           | Create, Retrieve, Delete a Booking, and Verify Deletion        | Smoke Test       |
+| **TC-SM-03**                           | Get All Booking IDs                                            | Smoke Test       |
 
 ---
 
