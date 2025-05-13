@@ -1,0 +1,50 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+env/
+
+# Test output
+*.log
+*.result
+
+# Pytest cache
+.cache/
+
+# IDE files (e.g. Visual Studio Code, PyCharm, etc.)
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Python egg-info
+*.egg-info/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Coverage reports
+.coverage
+.coverage.*
+nosetests.xml
+test_*.xml
+*.cover
+*.hypothesis/
+
+# Environment files
+.env
+*.env
+
+# Django-related (if applicable)
+*.sqlite3
+*.db
+
+# Other custom files that should be ignored
+*.bak
+*.swp
+*.swo
